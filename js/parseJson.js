@@ -1,9 +1,9 @@
 var dataset = "normalized_yearly-top100-entities-topics-sentiment.json"
 var num = 1
 var availableTags = [];
-var minimumValue = 0.3
+var minimumValue = 0.4
 
-d3.json("data/" + dataset, function (data) {
+d3.json("data/" + dataset, function(data) {
     console.log(data);
 
     for (i in data) {
@@ -20,22 +20,22 @@ d3.json("data/" + dataset, function (data) {
         for (j in data[i].entities) {
             // most frequent words
             var frequency = data[i].entities[j].freq
-            //get overall sentiment value
+                //get overall sentiment value
             var overallSentimet = data[i].entities[j].overall_sentiment
             var normalisedSentiment = data[i].entities[j].normalized_overall_sentiment
-            // people
+                // people
             var entity = data[i].entities[j].entity_name
 
             if (frequency > num) {
                 if (overallSentimet > 0) {
 
                     $(".element[data-type=entities][ data-year=" + data[i].year + "]").append(
-                        "<div class='elem' ><p id='split' class='positive' style=opacity:" +  (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
+                        "<div class='elem' ><p id='split' class='positive' style=opacity:" + (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
                     )
                 }
                 if (overallSentimet < 0) {
                     $(".element[data-type=entities][ data-year=" + data[i].year + "]").append(
-                        "<div class='elem' ><p id='split' class='negative' style=opacity:" +  (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
+                        "<div class='elem' ><p id='split' class='negative' style=opacity:" + (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
                     )
                 }
 
@@ -46,21 +46,21 @@ d3.json("data/" + dataset, function (data) {
         for (j in data[i].organizations) {
             // most frequent words
             var frequency = data[i].organizations[j].freq
-            //get overall sentiment value
+                //get overall sentiment value
             var overallSentimet = data[i].organizations[j].overall_sentiment
             var normalisedSentiment = data[i].organizations[j].normalized_overall_sentiment
-            // people
+                // people
             var entity = data[i].organizations[j].entity_name
 
             if (frequency > num) {
                 if (overallSentimet > 0) {
                     $(".element[data-type=organizations][ data-year=" + data[i].year + "]").append(
-                        "<div class='elem' ><p id='split' class='positive' style=opacity:" +  (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
+                        "<div class='elem' ><p id='split' class='positive' style=opacity:" + (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
                     )
                 }
                 if (overallSentimet < 0) {
                     $(".element[data-type=organizations][ data-year=" + data[i].year + "]").append(
-                        "<div class='elem' ><p id='split' class='negative' style=opacity:" +  (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
+                        "<div class='elem' ><p id='split' class='negative' style=opacity:" + (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
                     )
                 }
 
@@ -71,21 +71,21 @@ d3.json("data/" + dataset, function (data) {
         for (j in data[i].places) {
             // most frequent words
             var frequency = data[i].places[j].freq
-            //get overall sentiment value
+                //get overall sentiment value
             var overallSentimet = data[i].places[j].overall_sentiment
             var normalisedSentiment = data[i].places[j].normalized_overall_sentiment
-            // people
+                // people
             var entity = data[i].places[j].entity_name
 
             if (frequency > num) {
                 if (overallSentimet > 0) {
                     $(".element[data-type=places][ data-year=" + data[i].year + "]").append(
-                        "<div class='elem' ><p id='split' class='positive' style=opacity:" +  (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
+                        "<div class='elem' ><p id='split' class='positive' style=opacity:" + (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
                     )
                 }
                 if (overallSentimet < 0) {
                     $(".element[data-type=places][ data-year=" + data[i].year + "]").append(
-                        "<div class='elem' ><p id='split' class='negative' style=opacity:" +  (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
+                        "<div class='elem' ><p id='split' class='negative' style=opacity:" + (Math.abs(normalisedSentiment) + minimumValue) + "> " + entity + " </p></div>"
                     )
                 }
 
@@ -95,10 +95,10 @@ d3.json("data/" + dataset, function (data) {
         // open the first div
         $(".elements:first-of-type").addClass('open');
 
-        (function (datum) {
-            $(document).on('click', "#split", function () {
-                var thisParentYear = $(this).parent().parent().attr('data-year')// get Specific year i.e. 2010 2011 etc
-                var thisParentType = $(this).parent().parent().attr('data-type')// get typology i.e. places organization entities
+        (function(datum) {
+            $(document).on('click', "#split", function() {
+                var thisParentYear = $(this).parent().parent().attr('data-year') // get Specific year i.e. 2010 2011 etc
+                var thisParentType = $(this).parent().parent().attr('data-type') // get typology i.e. places organization entities
 
                 if (thisParentType == "entities" && thisParentYear == datum.year) {
                     for (j in datum.entities) {
@@ -219,19 +219,21 @@ d3.json("data/" + dataset, function (data) {
     // autocomplete function
     $("#tags").autocomplete({
         appendTo: "#autocomplete",
-        source: function (request, response) {
+        source: function(request, response) {
             var results = $.ui.autocomplete.filter(uniq, request.term);
             response(results.slice(0, 10));
-        }, messages: {
+        },
+        messages: {
             noResults: '',
-            results: function () { } // to do 
+            results: function() {} // to do 
         }
 
     });
 
     // Searches for a word and displays results
-    document.getElementById('searchWord').onclick = function () {
+    document.getElementById('searchWord').onclick = function() {
         $("#searchResult").html("")
+        $("#searches").html(" ")
 
         selectedWord = document.getElementById("tags").value;
 
@@ -255,15 +257,15 @@ d3.json("data/" + dataset, function (data) {
 
                 var entity = data[i].entities[j].entity_name
 
-                if (entity.includes(selectedWord)) {
+                if (entity.toLowerCase().includes(selectedWord.toLowerCase())) {
                     var overallSentimet = data[i].entities[j].overall_sentiment
                     var normalisedSentiment = data[i].entities[j].normalized_overall_sentiment
 
                     if (overallSentimet > 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(156, 204, 216," +  (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(156, 204, 216," + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
                     if (overallSentimet < 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(248, 187, 184, " +  (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(248, 187, 184, " + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
 
                     n += data[i].entities[j].freq
@@ -298,16 +300,16 @@ d3.json("data/" + dataset, function (data) {
                 var entity = data[i].organizations[j].entity_name
 
 
-                if (entity.includes(selectedWord)) {
+                if (entity.toLowerCase().includes(selectedWord.toLowerCase())) {
                     var overallSentimet = data[i].organizations[j].overall_sentiment
                     var normalisedSentiment = data[i].entities[j].normalized_overall_sentiment
 
 
                     if (overallSentimet > 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(156, 204, 216," +  (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(156, 204, 216," + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
                     if (overallSentimet < 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(248, 187, 184, " +  (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(248, 187, 184, " + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
 
                     n += data[i].organizations[j].freq
@@ -341,16 +343,16 @@ d3.json("data/" + dataset, function (data) {
 
                 var entity = data[i].places[j].entity_name
 
-                if (entity.includes(selectedWord)) {
+                if (entity.toLowerCase().includes(selectedWord.toLowerCase())) {
                     var overallSentimet = data[i].places[j].overall_sentiment
                     var normalisedSentiment = data[i].entities[j].normalized_overall_sentiment
 
 
                     if (overallSentimet > 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(156, 204, 216," +  (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(156, 204, 216," + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
                     if (overallSentimet < 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(248, 187, 184, " +  (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(248, 187, 184, " + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
 
                     n += data[i].places[j].freq
@@ -384,4 +386,3 @@ d3.json("data/" + dataset, function (data) {
 
     }
 });
-

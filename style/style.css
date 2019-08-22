@@ -85,7 +85,7 @@ p {
     background: rgba(0, 0, 0, 0.05);
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     /* height: 80vh; */
-    min-height: 90%;
+    /* min-height: 90%; */
     height: auto;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -94,6 +94,7 @@ p {
 }
 
 #content {
+    height: 80vh;
     width: 100%;
     display: block;
     margin: auto;
@@ -118,7 +119,7 @@ p {
     float: left;
     width: 4.444%;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
-    height: 100%;
+    /* height: auto; */
     -webkit-transition: width 350ms ease-in-out, height 350ms ease-in-out;
     -moz-transition: width 350ms ease-in-out, height 350ms ease-in-out;
     -o-transition: width 350ms ease-in-out, height 350ms ease-in-out;
@@ -140,7 +141,8 @@ p {
     padding-top: 6px;
 }
 
-.elements:not(.open)>div:not(.year), .elements:not(.open)>.element::before {
+.elements:not(.open)>div:not(.year),
+.elements:not(.open)>.element::before {
     font-size: calc(2px + .3vw) !important;
     line-height: 1vw;
     overflow: hidden;
@@ -185,7 +187,8 @@ p {
     padding-bottom: 1rem !important;
 }
 
-.pos_sents, .neg_sents {
+.pos_sents,
+.neg_sents {
     display: block;
     width: 95%;
     margin-bottom: .5rem;
@@ -303,9 +306,10 @@ h2 div {
     width: 33vw;
     width: 18.65%;
     height: 35%;
-    display: inline-grid;
+    display: inline-block;
     margin: .5%;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: auto;
 }
 
 .searchedElementContent {
@@ -313,7 +317,8 @@ h2 div {
     overflow: scroll;
 }
 
-.searchedElementContent, .searchedElementContainer .year {
+.searchedElementContent,
+.searchedElementContainer .year {
     padding: .5vw;
 }
 
@@ -368,6 +373,7 @@ ul li {
     font-size: 1.1rem;
 }
 
+
 /* Typography */
 
 .search {
@@ -377,7 +383,8 @@ ul li {
     margin: auto;
 }
 
-#searches, .search {
+#searches,
+.search {
     font-size: 1.2rem;
 }
 
@@ -410,9 +417,8 @@ ul li {
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
-    border-radius: 20px;   
+    border-radius: 20px;
     margin-bottom: 3vw;
-
 }
 
 #timeline:hover {
@@ -444,13 +450,15 @@ ul li {
 
 #searchValue {
     display: none;
+    min-height: 80vh;
 }
 
 #content {
     display: block;
 }
 
-input, button {
+input,
+button {
     font-family: Fk Roman;
     cursor: pointer;
 }
@@ -522,9 +530,14 @@ input, button {
     font-weight: bolder;
     font-size: calc(12px + .5vw) !important;
     padding-bottom: 1.5vw;
-    position: relative;
+    position: absolute;
     margin-top: .3rem;
 }
+
+.year+* {
+    margin-top: 2vw !important;
+}
+
 
 /* color selection */
 
@@ -538,7 +551,9 @@ input, button {
     color: white;
 }
 
+
 /* color selection */
+
 
 /* Scrollbar */
 
@@ -556,7 +571,9 @@ input, button {
     outline: 1px solid transparent;
 }
 
+
 /* Scrollbar */
+
 
 /* Media Queries */
 

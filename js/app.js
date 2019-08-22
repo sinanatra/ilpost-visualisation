@@ -1,15 +1,15 @@
-$(document).on('click', ".elements:not(.open)", function () {
+$(document).on('click', ".elements:not(.open)", function() {
     $("#content .elements").removeClass("open");
     $(".elements .elem").removeClass("info");
     $(".elem>div").remove();
     $(this).closest('.elements').addClass("open");
 });
 
-$(document).on('click', ".element", function () {
+$(document).on('click', ".element", function() {
     $(".info").get(0).scrollIntoView({ behavior: 'smooth' });
 });
 
-$(document).on('click', "#split[value=searches]", function () {
+$(document).on('click', "#split[value=searches]", function() {
     $("#searchValue").css("display", "block")
     $("#content").css("display", "none")
     $(".mapLayer").css("display", "none")
@@ -19,7 +19,7 @@ $(document).on('click', "#split[value=searches]", function () {
     $(this).toggleClass("selected");
 });
 
-$(document).on('click', "#split[value=timeline]", function () {
+$(document).on('click', "#split[value=timeline]", function() {
     $("#searchValue").css("display", "none")
     $("#content").css("display", "block")
     $(".mapLayer").css("display", "none")
@@ -29,7 +29,7 @@ $(document).on('click', "#split[value=timeline]", function () {
     $(this).toggleClass("selected");
 
 });
-$(document).on('click', "#split[value=map]", function () {
+$(document).on('click', "#split[value=map]", function() {
     $("#searchValue").css("display", "none")
     $("#content").css("display", "none")
     $(".mapLayer").css("display", "block")
