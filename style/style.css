@@ -64,7 +64,7 @@ p {
     font-size: calc(12px + .5vw);
     line-height: calc(12px + 0.7vw);
     margin: auto;
-    margin-top: 3rem;
+    /* margin-top: 0rem; */
     font-weight: normal;
     text-align: center;
 }
@@ -94,7 +94,8 @@ p {
 }
 
 #content {
-    height: 80vh;
+    min-height: 80vh;
+    height: auto;
     width: 100%;
     display: block;
     margin: auto;
@@ -170,6 +171,7 @@ p {
     width: 31.3% !important;
     float: left !important;
     height: 96% !important;
+    height: 100% !important;
     margin: 1%;
     overflow-x: hidden;
 }
@@ -329,9 +331,13 @@ h2 div {
     padding-top: 2rem;
 }
 
+#autocomplete {
+    height: auto;
+}
+
 ul {
     position: absolute;
-    width: 400px;
+    width: 350px;
     z-index: 100;
     transition: background 0.3s ease-out, color 0.3s ease-out, border-color 0.3s ease-out;
 }
@@ -350,7 +356,7 @@ ul li {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.175);
     line-height: 30px;
     letter-spacing: 0.05em;
-    width: 400px;
+    width: 350px;
     height: auto;
     float: left;
     outline: none;
@@ -380,6 +386,7 @@ ul li {
     padding: 2%;
     height: 100px;
     width: 50%;
+    width: 580px;
     margin: auto;
 }
 
@@ -500,8 +507,9 @@ button {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.175);
     line-height: 30px;
     letter-spacing: 0.05em;
-    width: 64%;
-    max-width: 400px;
+    /* width: 64%;
+    max-width: 350px; */
+    width: 350px;
     height: auto;
     float: left;
     outline: none;
@@ -529,14 +537,17 @@ button {
 .year {
     font-weight: bolder;
     font-size: calc(12px + .5vw) !important;
-    padding-bottom: 1.5vw;
-    position: absolute;
+    /* padding-bottom: 1vw; */
+    /* position: absolute; */
     margin-top: .3rem;
+    z-index: 10;
+    /* width: 100%; */
 }
 
-.year+* {
-    margin-top: 2vw !important;
-}
+
+/* .year+* {
+    margin-top: 3vw !important;
+} */
 
 
 /* color selection */
@@ -596,6 +607,12 @@ button {
     .searchedElementContainer {
         width: 99.88%;
     }
+    .topText h3 {
+        width: 90%;
+    }
+    #content {
+        overflow: scroll;
+    }
     .search {
         width: 90%;
     }
@@ -615,7 +632,7 @@ button {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 459px) {
+@media screen and (max-width: 459px) {
     .search {
         width: 59%;
     }
