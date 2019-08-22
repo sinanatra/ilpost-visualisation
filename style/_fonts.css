@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Fk Roman';
+  src: url('../fonts/FKRomanDisplay-Black.woff2') format('woff');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fk Roman';
+  src: url('../fonts/FKRomanDisplay-Bold.woff2') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fk Roman';
+  src: url('../fonts/FKRomanDisplay-Light.woff2') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fk Roman';
+  src: url('../fonts/FKRomanDisplay-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
