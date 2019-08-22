@@ -1,0 +1,2133 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4853384,41.894802 ]
+    },
+    "properties": {
+    "display_name":"Rome, RM, Lazio, Italy",
+    "freq":196,
+    "year":2010,
+    "sentiment":-0.7780663780663781,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1844258,45.4653323 ]
+    },
+    "properties": {
+    "display_name":"Il Giornale, 4, Via Gaetano Negri, Cordusio, Municipio 1, Milan, Lombardy, 2021, Italy",
+    "freq":55,
+    "year":2010,
+    "sentiment":-0.17307692307692307,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1082561,44.4612612 ]
+    },
+    "properties": {
+    "display_name":"Comune, Lumarzo, Genoa, Liguria, 16022, Italy",
+    "freq":35,
+    "year":2010,
+    "sentiment":-0.5185185185185185,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3514992,48.8566101 ]
+    },
+    "properties": {
+    "display_name":"Paris, Ile-de-France, Metropolitan France, France",
+    "freq":31,
+    "year":2010,
+    "sentiment":-1.875,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.6265655,40.3207332 ]
+    },
+    "properties": {
+    "display_name":"Terra, Tooele County, Utah, USA",
+    "freq":27,
+    "year":2010,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.2487826,40.8359336 ]
+    },
+    "properties": {
+    "display_name":"Naples, NA, Campania, Italy",
+    "freq":19,
+    "year":2010,
+    "sentiment":-0.25,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.0545665,-36.8238346 ]
+    },
+    "properties": {
+    "display_name":"Profumo, Rengo, Barrio Cívico, Pedro de Valdivia, Concepcion, Provincia de Concepción, Biobío Region, 4030576, Chile",
+    "freq":19,
+    "year":2010,
+    "sentiment":-0.25,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.36743669338796,50.8436709 ]
+    },
+    "properties": {
+    "display_name":"Brussels, Ville de Bruxelles - Stad Brussel, Brussels-Capital, Belgium",
+    "freq":18,
+    "year":2010,
+    "sentiment":-0.75,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.1536106,45.6727307 ]
+    },
+    "properties": {
+    "display_name":"Paese, TV, Veneto, Italy",
+    "freq":70,
+    "year":2011,
+    "sentiment":-0.15000000000000002,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0015196,30.8760272 ]
+    },
+    "properties": {
+    "display_name":"Israel",
+    "freq":38,
+    "year":2011,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 37.6174943,55.7504461 ]
+    },
+    "properties": {
+    "display_name":"Moscow, Central Administrative Okrug, Moscow, Central Federal District, Russia",
+    "freq":24,
+    "year":2011,
+    "sentiment":-1.0416666666666667,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 42.3528328,25.6242618 ]
+    },
+    "properties": {
+    "display_name":"Saudi Arabia",
+    "freq":19,
+    "year":2011,
+    "sentiment":-0.7307692307692307,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.6677428,22.3511148 ]
+    },
+    "properties": {
+    "display_name":"India",
+    "freq":19,
+    "year":2011,
+    "sentiment":-0.25,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.400138,33.8439408 ]
+    },
+    "properties": {
+    "display_name":"Tunisia",
+    "freq":18,
+    "year":2011,
+    "sentiment":-0.4444444444444444,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.2,-10.3333333 ]
+    },
+    "properties": {
+    "display_name":"Brazil",
+    "freq":17,
+    "year":2011,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.7156073,-5.3264703 ]
+    },
+    "properties": {
+    "display_name":"Ceará, Northeast Region, Brazil",
+    "freq":16,
+    "year":2011,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.3430347,44.4936714 ]
+    },
+    "properties": {
+    "display_name":"Bologna, BO, Emilia-Romagna, Italy",
+    "freq":15,
+    "year":2011,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.860658,44.0714812 ]
+    },
+    "properties": {
+    "display_name":"Valori, Courthézon, Avignon, Vaucluse, Provence-Alpes-Côte d'Azur, Metropolitan France, 84350, France",
+    "freq":14,
+    "year":2011,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.3876389,-28.6962253 ]
+    },
+    "properties": {
+    "display_name":"Milanese, Criciúma, Microrregião de Criciúma, Mesorregião do Sul Catarinense, Santa Catarina, South Region, Brazil",
+    "freq":14,
+    "year":2011,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 30.2194322,51.2705259 ]
+    },
+    "properties": {
+    "display_name":"Chornobyl, Ivankiv Raion, Kyiv Oblast, 07270, Ukraine",
+    "freq":13,
+    "year":2011,
+    "sentiment":-1.4545454545454546,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 31.243666,30.048819 ]
+    },
+    "properties": {
+    "display_name":"Cairo, Cairo Governorate, Egypt",
+    "freq":11,
+    "year":2011,
+    "sentiment":-3,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1082561,44.4612612 ]
+    },
+    "properties": {
+    "display_name":"Comune, Lumarzo, Genoa, Liguria, 16022, Italy",
+    "freq":10,
+    "year":2011,
+    "sentiment":-0.07142857142857145,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.5335592,19.8508906 ]
+    },
+    "properties": {
+    "display_name":"La Europea, Calle 49 B, San Francisco de Campeche Calle 22, Campeche, 24000, Mexico",
+    "freq":29,
+    "year":2012,
+    "sentiment":-0.5,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.7559974,36.7014631 ]
+    },
+    "properties": {
+    "display_name":"California, USA",
+    "freq":27,
+    "year":2012,
+    "sentiment":-1.3181818181818181,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.3618696,51.9190352 ]
+    },
+    "properties": {
+    "display_name":"Emilia, gmina Zgierz, powiat zgierski, Łódź Voivodeship, 95-100, Poland",
+    "freq":24,
+    "year":2012,
+    "sentiment":-1.315,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.6186451,44.8372737 ]
+    },
+    "properties": {
+    "display_name":"Ferrara, FE, Emilia-Romagna, Italy",
+    "freq":22,
+    "year":2012,
+    "sentiment":-0.1875,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9249653,38.9597594 ]
+    },
+    "properties": {
+    "display_name":"Turkey",
+    "freq":21,
+    "year":2012,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.5120986,31.8160381 ]
+    },
+    "properties": {
+    "display_name":"Texas, USA",
+    "freq":21,
+    "year":2012,
+    "sentiment":-1.3076923076923077,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.007126,30.8703881 ]
+    },
+    "properties": {
+    "display_name":"Louisiana, USA",
+    "freq":20,
+    "year":2012,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1082561,44.4612612 ]
+    },
+    "properties": {
+    "display_name":"Comune, Lumarzo, Genoa, Liguria, 16022, Italy",
+    "freq":19,
+    "year":2012,
+    "sentiment":-2,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 44.0287382,41.6809707 ]
+    },
+    "properties": {
+    "display_name":"Georgia",
+    "freq":17,
+    "year":2012,
+    "sentiment":-3,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7035825,40.4167047 ]
+    },
+    "properties": {
+    "display_name":"Madrid, Área metropolitana de Madrid y Corredor del Henares, Community of Madrid, 28001, Spain",
+    "freq":17,
+    "year":2012,
+    "sentiment":-1.5,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.0701156,29.9499323 ]
+    },
+    "properties": {
+    "display_name":"New Orleans, Orleans Parish, Louisiana, USA",
+    "freq":17,
+    "year":2012,
+    "sentiment":-0.5294117647058824,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.6824346,43.6211955 ]
+    },
+    "properties": {
+    "display_name":"Michigan, USA",
+    "freq":16,
+    "year":2012,
+    "sentiment":-3.735294117647059,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.869423,13.5066394 ]
+    },
+    "properties": {
+    "display_name":"Cambodia",
+    "freq":16,
+    "year":2012,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 18.1236723,26.8234472 ]
+    },
+    "properties": {
+    "display_name":"Libya",
+    "freq":14,
+    "year":2012,
+    "sentiment":-0.16666666666666674,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1128513,39.2169525 ]
+    },
+    "properties": {
+    "display_name":"Cagliari, CA, Sardinia, 09124, Italy",
+    "freq":13,
+    "year":2012,
+    "sentiment":-0.15000000000000002,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.0852695,42.1294712 ]
+    },
+    "properties": {
+    "display_name":"Erie, Erie County, Pennsylvania, USA",
+    "freq":12,
+    "year":2012,
+    "sentiment":-0.5555555555555556,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.7594549,35.6828387 ]
+    },
+    "properties": {
+    "display_name":"Tokyo, Kanto, Japan",
+    "freq":12,
+    "year":2012,
+    "sentiment":-0.3125,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1844258,45.4653323 ]
+    },
+    "properties": {
+    "display_name":"Il Giornale, 4, Via Gaetano Negri, Cordusio, Municipio 1, Milan, Lombardy, 2021, Italy",
+    "freq":12,
+    "year":2012,
+    "sentiment":-0.4583333333333333,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.0364815,54.8491617 ]
+    },
+    "properties": {
+    "display_name":"Stato, Ladelund, Südtondern, Northern Friesland, Schleswig-Holstein, 25926, Germany",
+    "freq":134,
+    "year":2013,
+    "sentiment":-0.3169642857142857,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4958271,41.9027646 ]
+    },
+    "properties": {
+    "display_name":"Repubblica, Piazza della Repubblica, Municipio Roma I, Rome, RM, Lazio, 00187, Italy",
+    "freq":131,
+    "year":2013,
+    "sentiment":-0.4875,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 97.7453061,64.6863136 ]
+    },
+    "properties": {
+    "display_name":"Russia",
+    "freq":113,
+    "year":2013,
+    "sentiment":-0.4328358208955224,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.8883335,46.603354 ]
+    },
+    "properties": {
+    "display_name":"France",
+    "freq":112,
+    "year":2013,
+    "sentiment":-1,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4234469,51.0834196 ]
+    },
+    "properties": {
+    "display_name":"Germany",
+    "freq":104,
+    "year":2013,
+    "sentiment":-2,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 31.243666,30.048819 ]
+    },
+    "properties": {
+    "display_name":"Cairo, Cairo Governorate, Egypt",
+    "freq":62,
+    "year":2013,
+    "sentiment":-1.4927536231884058,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.155048,37.587794 ]
+    },
+    "properties": {
+    "display_name":"Sicily, Italy",
+    "freq":45,
+    "year":2013,
+    "sentiment":-0.30158730158730157,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.3524434,38.1112268 ]
+    },
+    "properties": {
+    "display_name":"Palermo, PA, Sicily, Italy",
+    "freq":43,
+    "year":2013,
+    "sentiment":-1.5833333333333333,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.2338988,12.1327975 ]
+    },
+    "properties": {
+    "display_name":"Barrio Unión Soviética, D4, Managua, Managua (Municipio), Departamento de Managua, 10000 (CODIGO MAESTRO), Nicaragua",
+    "freq":28,
+    "year":2013,
+    "sentiment":-0.5,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.869423,13.5066394 ]
+    },
+    "properties": {
+    "display_name":"Cambodia",
+    "freq":25,
+    "year":2013,
+    "sentiment":-0.75,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.47614014606825,40.9543293 ]
+    },
+    "properties": {
+    "display_name":"Olbia, SS, Sardinia, 07026, Italy",
+    "freq":25,
+    "year":2013,
+    "sentiment":-2.090909090909091,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.7662312,41.9808038 ]
+    },
+    "properties": {
+    "display_name":"Lazio, Italy",
+    "freq":23,
+    "year":2013,
+    "sentiment":-5.7976190476190474,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7968559,32.7762719 ]
+    },
+    "properties": {
+    "display_name":"Dallas, Dallas County, Texas, USA",
+    "freq":23,
+    "year":2013,
+    "sentiment":-0.5555555555555556,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.134422,52.215933 ]
+    },
+    "properties": {
+    "display_name":"Poland",
+    "freq":22,
+    "year":2013,
+    "sentiment":-0.7333333333333333,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 108.4265113,13.2904027 ]
+    },
+    "properties": {
+    "display_name":"Vietnam",
+    "freq":22,
+    "year":2013,
+    "sentiment":-2.4285714285714284,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 33.1451285,34.9823018 ]
+    },
+    "properties": {
+    "display_name":"Cyprus",
+    "freq":22,
+    "year":2013,
+    "sentiment":-1.8333333333333333,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.0969262,43.880598 ]
+    },
+    "properties": {
+    "display_name":"Prato, PO, Tuscany, 59100, Italy",
+    "freq":22,
+    "year":2013,
+    "sentiment":-0.2222222222222222,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1953744,45.4738934 ]
+    },
+    "properties": {
+    "display_name":"Interni, 8, Via Filippo Turati, Porta Nuova, Milan, Lombardy, 20121, Italy",
+    "freq":21,
+    "year":2013,
+    "sentiment":-0.7857142857142857,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.346638,27.99194 ]
+    },
+    "properties": {
+    "display_name":"Gebel Qaida, Sharm el-Sheikh, South Sinai Governorate, Egypt",
+    "freq":21,
+    "year":2013,
+    "sentiment":-0.047619047619047616,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.999927,35.000074 ]
+    },
+    "properties": {
+    "display_name":"PRC",
+    "freq":20,
+    "year":2013,
+    "sentiment":-0.2857142857142857,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.674297,42.6384261 ]
+    },
+    "properties": {
+    "display_name":"Italy",
+    "freq":435,
+    "year":2014,
+    "sentiment":-0.05752895752895754,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9249653,38.9597594 ]
+    },
+    "properties": {
+    "display_name":"Turkey",
+    "freq":50,
+    "year":2014,
+    "sentiment":-0.7333333333333333,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.7578122,11.5024338 ]
+    },
+    "properties": {
+    "display_name":"Africa",
+    "freq":47,
+    "year":2014,
+    "sentiment":-1.911111111111111,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2527297,53.3471967 ]
+    },
+    "properties": {
+    "display_name":"Facebook, 1, George's Quay, Mansion House A ED, Dublin 2, Dublin, County Dublin, Leinster, D01 W6X0, Ireland",
+    "freq":45,
+    "year":2014,
+    "sentiment":-0.125,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.3524434,38.1112268 ]
+    },
+    "properties": {
+    "display_name":"Palermo, PA, Sicily, Italy",
+    "freq":43,
+    "year":2014,
+    "sentiment":-1.9166666666666667,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 127.0870417,40.3736611 ]
+    },
+    "properties": {
+    "display_name":"North Korea",
+    "freq":43,
+    "year":2014,
+    "sentiment":-0.5,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6943028,3.1516636 ]
+    },
+    "properties": {
+    "display_name":"Kuala Lumpur, Malaysia",
+    "freq":41,
+    "year":2014,
+    "sentiment":-2.84,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.2338988,12.1327975 ]
+    },
+    "properties": {
+    "display_name":"Barrio Unión Soviética, D4, Managua, Managua (Municipio), Departamento de Managua, 10000 (CODIGO MAESTRO), Nicaragua",
+    "freq":40,
+    "year":2014,
+    "sentiment":-0.1904761904761905,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.1536106,45.6727307 ]
+    },
+    "properties": {
+    "display_name":"Paese, TV, Veneto, Italy",
+    "freq":39,
+    "year":2014,
+    "sentiment":-0.3333333333333333,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.0000375,22.5000485 ]
+    },
+    "properties": {
+    "display_name":"Mexico",
+    "freq":35,
+    "year":2014,
+    "sentiment":-0.04629629629629628,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 44.0287382,41.6809707 ]
+    },
+    "properties": {
+    "display_name":"Georgia",
+    "freq":35,
+    "year":2014,
+    "sentiment":-1,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.4409841,45.3269357 ]
+    },
+    "properties": {
+    "display_name":"Grad Rijeka, Primorje-Gorski Kotar County, Croatia",
+    "freq":34,
+    "year":2014,
+    "sentiment":-0.75,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.4458825,39.7837304 ]
+    },
+    "properties": {
+    "display_name":"USA",
+    "freq":1159,
+    "year":2015,
+    "sentiment":-0.7324046920821115,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 97.7453061,64.6863136 ]
+    },
+    "properties": {
+    "display_name":"Russia",
+    "freq":376,
+    "year":2015,
+    "sentiment":-1.2916666666666665,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.9877132,38.9953683 ]
+    },
+    "properties": {
+    "display_name":"Greece",
+    "freq":363,
+    "year":2015,
+    "sentiment":-0.5,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4234469,51.0834196 ]
+    },
+    "properties": {
+    "display_name":"Germany",
+    "freq":359,
+    "year":2015,
+    "sentiment":-1.4666666666666668,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.2394179,36.5748441 ]
+    },
+    "properties": {
+    "display_name":"Japan",
+    "freq":189,
+    "year":2015,
+    "sentiment":-0.19791666666666666,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 44.1749775,33.0955793 ]
+    },
+    "properties": {
+    "display_name":"Iraq",
+    "freq":93,
+    "year":2015,
+    "sentiment":-2.833333333333333,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.3888599,52.5170365 ]
+    },
+    "properties": {
+    "display_name":"Berlin, 10117, Germany",
+    "freq":73,
+    "year":2015,
+    "sentiment":-0.5141843971631206,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.6667145,50.6402809 ]
+    },
+    "properties": {
+    "display_name":"Belgium",
+    "freq":62,
+    "year":2015,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.36743669338796,50.8436709 ]
+    },
+    "properties": {
+    "display_name":"Brussels, Ville de Bruxelles - Stad Brussel, Brussels-Capital, Belgium",
+    "freq":58,
+    "year":2015,
+    "sentiment":-0.9019607843137254,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.2319736,46.7985624 ]
+    },
+    "properties": {
+    "display_name":"Switzerland",
+    "freq":57,
+    "year":2015,
+    "sentiment":-2.5,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.3524434,38.1112268 ]
+    },
+    "properties": {
+    "display_name":"Palermo, PA, Sicily, Italy",
+    "freq":56,
+    "year":2015,
+    "sentiment":-0.775,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.3333283,55.670249 ]
+    },
+    "properties": {
+    "display_name":"Denmark",
+    "freq":51,
+    "year":2015,
+    "sentiment":-0.75,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.155048,37.587794 ]
+    },
+    "properties": {
+    "display_name":"Sicily, Italy",
+    "freq":50,
+    "year":2015,
+    "sentiment":-1.3666666666666667,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.7662312,41.9808038 ]
+    },
+    "properties": {
+    "display_name":"Lazio, Italy",
+    "freq":46,
+    "year":2015,
+    "sentiment":-0.823529411764706,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.2555757,43.7698712 ]
+    },
+    "properties": {
+    "display_name":"Florence, Metropolitan City of Florence, Tuscany, Italy",
+    "freq":41,
+    "year":2015,
+    "sentiment":-0.8125,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 28.5110236,47.286747 ]
+    },
+    "properties": {
+    "display_name":"Moldova",
+    "freq":36,
+    "year":2015,
+    "sentiment":-0.7352941176470589,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 24.991639,-28.8166236 ]
+    },
+    "properties": {
+    "display_name":"RSA",
+    "freq":35,
+    "year":2015,
+    "sentiment":-1.625,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4853384,41.894802 ]
+    },
+    "properties": {
+    "display_name":"Rome, RM, Lazio, Italy",
+    "freq":913,
+    "year":2016,
+    "sentiment":-0.2605113194990824,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.3484451,40.8283916 ]
+    },
+    "properties": {
+    "display_name":"Trump, Stark County, Ohio, 44705, USA",
+    "freq":557,
+    "year":2016,
+    "sentiment":-0.08278867102396514,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4234469,51.0834196 ]
+    },
+    "properties": {
+    "display_name":"Germany",
+    "freq":366,
+    "year":2016,
+    "sentiment":-0.21391076115485563,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9249653,38.9597594 ]
+    },
+    "properties": {
+    "display_name":"Turkey",
+    "freq":306,
+    "year":2016,
+    "sentiment":-0.056451612903225805,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.1063085,46.1386687 ]
+    },
+    "properties": {
+    "display_name":"Officina Ottanta, 42, Via Paganella, Maso Ingran, Lavis, Comunità Rotaliana-Königsberg, TN, Trentino-Alto Adige/Südtirol, 38015, Italy",
+    "freq":203,
+    "year":2016,
+    "sentiment":-0.8571428571428571,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0015196,30.8760272 ]
+    },
+    "properties": {
+    "display_name":"Israel",
+    "freq":169,
+    "year":2016,
+    "sentiment":-1.3809523809523807,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.7559974,36.7014631 ]
+    },
+    "properties": {
+    "display_name":"California, USA",
+    "freq":167,
+    "year":2016,
+    "sentiment":-0.1858974358974359,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.6667145,50.6402809 ]
+    },
+    "properties": {
+    "display_name":"Belgium",
+    "freq":132,
+    "year":2016,
+    "sentiment":-0.6206896551724138,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 71.247499,30.3308401 ]
+    },
+    "properties": {
+    "display_name":"Pakistan",
+    "freq":93,
+    "year":2016,
+    "sentiment":-0.3037974683544304,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.4007519,44.6589549 ]
+    },
+    "properties": {
+    "display_name":"Cinquanta, Unione Reno Galliera, BO, Emilia-Romagna, 40016, Italy",
+    "freq":92,
+    "year":2016,
+    "sentiment":-0.6993464052287582,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0031136,40.7239998 ]
+    },
+    "properties": {
+    "display_name":"Sessanta, 60, Thompson Street, SoHo, Manhattan Community Board 2, Manhattan, New York County, New York, 10012, USA",
+    "freq":87,
+    "year":2016,
+    "sentiment":-0.3850574712643678,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 31.243666,30.048819 ]
+    },
+    "properties": {
+    "display_name":"Cairo, Cairo Governorate, Egypt",
+    "freq":82,
+    "year":2016,
+    "sentiment":-1.0333333333333332,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.8896263,40.033265 ]
+    },
+    "properties": {
+    "display_name":"Portugal",
+    "freq":66,
+    "year":2016,
+    "sentiment":-2.0606060606060606,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 29.2675469,26.2540493 ]
+    },
+    "properties": {
+    "display_name":"Egypt",
+    "freq":65,
+    "year":2016,
+    "sentiment":-1.25,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.0000375,22.5000485 ]
+    },
+    "properties": {
+    "display_name":"Mexico",
+    "freq":65,
+    "year":2016,
+    "sentiment":-1.5964912280701755,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.91042958073038,6.15926585 ]
+    },
+    "properties": {
+    "display_name":"Grand Bassa County, Liberia",
+    "freq":63,
+    "year":2016,
+    "sentiment":-0.05555555555555555,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.134422,52.215933 ]
+    },
+    "properties": {
+    "display_name":"Poland",
+    "freq":59,
+    "year":2016,
+    "sentiment":-3,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1904984,45.4667971 ]
+    },
+    "properties": {
+    "display_name":"Milan, Lombardy, Italy",
+    "freq":570,
+    "year":2017,
+    "sentiment":-0.00019470404984422984,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.8883335,46.603354 ]
+    },
+    "properties": {
+    "display_name":"France",
+    "freq":529,
+    "year":2017,
+    "sentiment":-0.3504950495049505,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 97.7453061,64.6863136 ]
+    },
+    "properties": {
+    "display_name":"Russia",
+    "freq":504,
+    "year":2017,
+    "sentiment":-0.22046511627906976,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3514992,48.8566101 ]
+    },
+    "properties": {
+    "display_name":"Paris, Ile-de-France, Metropolitan France, France",
+    "freq":381,
+    "year":2017,
+    "sentiment":-0.3251533742331288,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.7559974,36.7014631 ]
+    },
+    "properties": {
+    "display_name":"California, USA",
+    "freq":151,
+    "year":2017,
+    "sentiment":-4.562091503267974,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0015196,30.8760272 ]
+    },
+    "properties": {
+    "display_name":"Israel",
+    "freq":135,
+    "year":2017,
+    "sentiment":0,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.134422,52.215933 ]
+    },
+    "properties": {
+    "display_name":"Poland",
+    "freq":99,
+    "year":2017,
+    "sentiment":-1.6666666666666667,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -115.149225,36.1662859 ]
+    },
+    "properties": {
+    "display_name":"Las Vegas, Clark County, Nevada, USA",
+    "freq":96,
+    "year":2017,
+    "sentiment":-0.738095238095238,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 47.8915271,16.3471243 ]
+    },
+    "properties": {
+    "display_name":"Yemen",
+    "freq":84,
+    "year":2017,
+    "sentiment":-1,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.9255707,44.6458885 ]
+    },
+    "properties": {
+    "display_name":"Modena, MO, Emilia-Romagna, Italy",
+    "freq":83,
+    "year":2017,
+    "sentiment":-1.0153225806451613,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.6667145,50.6402809 ]
+    },
+    "properties": {
+    "display_name":"Belgium",
+    "freq":69,
+    "year":2017,
+    "sentiment":-1.173913043478261,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.8896263,40.033265 ]
+    },
+    "properties": {
+    "display_name":"Portugal",
+    "freq":69,
+    "year":2017,
+    "sentiment":-2,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.0000375,22.5000485 ]
+    },
+    "properties": {
+    "display_name":"Mexico",
+    "freq":66,
+    "year":2017,
+    "sentiment":-1.8431372549019607,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.346638,27.99194 ]
+    },
+    "properties": {
+    "display_name":"Gebel Qaida, Sharm el-Sheikh, South Sinai Governorate, Egypt",
+    "freq":58,
+    "year":2017,
+    "sentiment":-1.2685185185185186,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 80.0288728905522,9.66058495 ]
+    },
+    "properties": {
+    "display_name":"ATM, Jaffna, Jaffna District, Northern Province, Sri Lanka",
+    "freq":58,
+    "year":2017,
+    "sentiment":-0.13725490196078433,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.1109318,8.0018709 ]
+    },
+    "properties": {
+    "display_name":"Venezuela",
+    "freq":57,
+    "year":2017,
+    "sentiment":-1.0980392156862746,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0060152,40.7127281 ]
+    },
+    "properties": {
+    "display_name":"New York, USA",
+    "freq":456,
+    "year":2018,
+    "sentiment":-0.22937352245862883,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0015196,30.8760272 ]
+    },
+    "properties": {
+    "display_name":"Israel",
+    "freq":324,
+    "year":2018,
+    "sentiment":-0.38333333333333336,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 18.1236723,26.8234472 ]
+    },
+    "properties": {
+    "display_name":"Libya",
+    "freq":277,
+    "year":2018,
+    "sentiment":-0.2929936305732484,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.9877132,38.9953683 ]
+    },
+    "properties": {
+    "display_name":"Greece",
+    "freq":239,
+    "year":2018,
+    "sentiment":-0.08908045977011492,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.2555757,43.7698712 ]
+    },
+    "properties": {
+    "display_name":"Florence, Metropolitan City of Florence, Tuscany, Italy",
+    "freq":179,
+    "year":2018,
+    "sentiment":-0.4583333333333333,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.397672,52.1458506 ]
+    },
+    "properties": {
+    "display_name":"Greater Poland Voivodeship, Poland",
+    "freq":173,
+    "year":2018,
+    "sentiment":-0.9285714285714286,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.3524434,38.1112268 ]
+    },
+    "properties": {
+    "display_name":"Palermo, PA, Sicily, Italy",
+    "freq":166,
+    "year":2018,
+    "sentiment":-0.4407894736842105,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.9122676,-11.7790355 ]
+    },
+    "properties": {
+    "display_name":"Luena, Moxico, Angola",
+    "freq":158,
+    "year":2018,
+    "sentiment":-0.116304347826087,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.602777,42.0086446 ]
+    },
+    "properties": {
+    "display_name":"Pastisseria Puigdemont, 6, Carrer de Sant Miquel, Urbanització Solivent, Can Lloret, Amer, Selva, Girona, Catalonia, 17170, Spain",
+    "freq":131,
+    "year":2018,
+    "sentiment":-1.8154761904761905,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.9672817,-34.9964963 ]
+    },
+    "properties": {
+    "display_name":"Argentina",
+    "freq":129,
+    "year":2018,
+    "sentiment":-0.8301587301587302,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 16.5849482,38.9068704 ]
+    },
+    "properties": {
+    "display_name":"Viadotto Fausto Bisantis, Sant'Antonio, Catanzaro, CZ, Calabria, 88050, Italy",
+    "freq":107,
+    "year":2018,
+    "sentiment":-0.25,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 20.55144,44.1534121 ]
+    },
+    "properties": {
+    "display_name":"Serbia",
+    "freq":101,
+    "year":2018,
+    "sentiment":-0.3055555555555555,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.999927,35.000074 ]
+    },
+    "properties": {
+    "display_name":"PRC",
+    "freq":623,
+    "year":2019,
+    "sentiment":-4.367383512544802,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.2765753,54.7023545 ]
+    },
+    "properties": {
+    "display_name":"United Kingdom",
+    "freq":607,
+    "year":2019,
+    "sentiment":-0.14444444444444446,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.5335592,19.8508906 ]
+    },
+    "properties": {
+    "display_name":"La Europea, Calle 49 B, San Francisco de Campeche Calle 22, Campeche, 24000, Mexico",
+    "freq":293,
+    "year":2019,
+    "sentiment":-0.11111111111111112,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.2394179,36.5748441 ]
+    },
+    "properties": {
+    "display_name":"Japan",
+    "freq":210,
+    "year":2019,
+    "sentiment":-0.27058823529411763,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.1109318,8.0018709 ]
+    },
+    "properties": {
+    "display_name":"Venezuela",
+    "freq":190,
+    "year":2019,
+    "sentiment":-1.2732558139534884,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.6667145,50.6402809 ]
+    },
+    "properties": {
+    "display_name":"Belgium",
+    "freq":154,
+    "year":2019,
+    "sentiment":-0.2416666666666667,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 39.0494106,34.6401861 ]
+    },
+    "properties": {
+    "display_name":"Syria",
+    "freq":150,
+    "year":2019,
+    "sentiment":-0.17777777777777778,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.7559974,36.7014631 ]
+    },
+    "properties": {
+    "display_name":"California, USA",
+    "freq":135,
+    "year":2019,
+    "sentiment":-0.3414634146341463,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.54122345487672,52.24726925 ]
+    },
+    "properties": {
+    "display_name":"Netherlands",
+    "freq":132,
+    "year":2019,
+    "sentiment":-1,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.9877132,38.9953683 ]
+    },
+    "properties": {
+    "display_name":"Greece",
+    "freq":131,
+    "year":2019,
+    "sentiment":-1.3098591549295775,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.36743669338796,50.8436709 ]
+    },
+    "properties": {
+    "display_name":"Brussels, Ville de Bruxelles - Stad Brussel, Brussels-Capital, Belgium",
+    "freq":130,
+    "year":2019,
+    "sentiment":-0.047619047619047616,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.923549,45.060735 ]
+    },
+    "properties": {
+    "display_name":"Piemont, Italy",
+    "freq":122,
+    "year":2019,
+    "sentiment":-0.4444444444444444,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.6677428,22.3511148 ]
+    },
+    "properties": {
+    "display_name":"India",
+    "freq":121,
+    "year":2019,
+    "sentiment":-0.11194029850746269,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 114.1849161,22.350627 ]
+    },
+    "properties": {
+    "display_name":"Hong Kong, PRC",
+    "freq":115,
+    "year":2019,
+    "sentiment":-1.4174757281553398,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 16.5249864,39.0565974 ]
+    },
+    "properties": {
+    "display_name":"Calabria, Italy",
+    "freq":89,
+    "year":2019,
+    "sentiment":-1.1666666666666667,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.1389204,43.4586541 ]
+    },
+    "properties": {
+    "display_name":"Tuscany, Italy",
+    "freq":78,
+    "year":2019,
+    "sentiment":-1.4259259259259258,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 16.081953,40.500571 ]
+    },
+    "properties": {
+    "display_name":"Basilicata, Italy",
+    "freq":76,
+    "year":2019,
+    "sentiment":-0.8125,
+    "sentimentsplit":"negative"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.3888599,52.5170365 ]
+    },
+    "properties": {
+    "display_name":"Berlin, 10117, Germany",
+    "freq":76,
+    "year":2019,
+    "sentiment":-0.9753086419753086,
+    "sentimentsplit":"negative"
+    }
+  }
+]
+}
