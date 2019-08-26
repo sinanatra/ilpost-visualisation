@@ -1,7 +1,16 @@
 var dataset = "normalized_yearly-top100-entities-topics-sentiment.json"
 var num = 1
 var availableTags = [];
-var minimumValue = 0.4
+var minimumValue = 0.3
+
+var positive = "251, 251, 221"
+var negative = "199, 204, 218"
+
+var orderbyValue = []
+
+function sortNumber(a, b) {
+    return a - b;
+}
 
 d3.json("data/" + dataset, function(data) {
     console.log(data);
@@ -40,7 +49,11 @@ d3.json("data/" + dataset, function(data) {
                 }
 
             }
+
+            orderbyValue.push(normalisedSentiment)
         }
+
+        // console.log(orderbyValue.sort(sortNumber))
 
         // adds organisations to div
         for (j in data[i].organizations) {
@@ -119,14 +132,13 @@ d3.json("data/" + dataset, function(data) {
                                     var pos_sents = thisArea[el].pos_sents[em][0]
                                     var pos_value = thisArea[el].pos_sents[em][1]
                                     var originalLink = thisArea[el].pos_sents[em][2]
-                                    $(".infoContainer").append("<div class='pos_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(156, 204, 216," + (Math.abs(pos_value) + minimumValue) + ");'>" + pos_sents + "</a></div>")
-
+                                    $(".infoContainer").append("<div class='pos_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(" + positive + "," + (Math.abs(pos_value) + minimumValue) + ");'>" + pos_sents + "</a></div>")
                                 }
                                 for (em in thisArea[el].neg_sents) {
                                     var neg_sents = thisArea[el].neg_sents[em][0]
                                     var neg_value = thisArea[el].neg_sents[em][1]
                                     var originalLink = thisArea[el].neg_sents[em][2]
-                                    $(".infoContainer").append("<div class='neg_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(248, 187, 184, " + (Math.abs(neg_value) + minimumValue) + ");'>" + neg_sents + "</a></div>")
+                                    $(".infoContainer").append("<div class='neg_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(" + negative + "," + (Math.abs(neg_value) + minimumValue) + ");'>" + neg_sents + "</a></div>")
                                 }
                             }
                         }
@@ -151,14 +163,15 @@ d3.json("data/" + dataset, function(data) {
                                     var pos_sents = thisArea[el].pos_sents[em][0]
                                     var pos_value = thisArea[el].pos_sents[em][1]
                                     var originalLink = thisArea[el].pos_sents[em][2]
-                                    $(".infoContainer").append("<div class='pos_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(156, 204, 216," + (Math.abs(pos_value) + minimumValue) + ");'>" + pos_sents + "</a></div>")
+                                    $(".infoContainer").append("<div class='pos_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(" + positive + "," + (Math.abs(pos_value) + minimumValue) + ");'>" + pos_sents + "</a></div>")
+                                    console.log(positive + ", ")
 
                                 }
                                 for (em in thisArea[el].neg_sents) {
                                     var neg_sents = thisArea[el].neg_sents[em][0]
                                     var neg_value = thisArea[el].neg_sents[em][1]
                                     var originalLink = thisArea[el].neg_sents[em][2]
-                                    $(".infoContainer").append("<div class='neg_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(248, 187, 184, " + (Math.abs(neg_value) + minimumValue) + ");'>" + neg_sents + "</a></div>")
+                                    $(".infoContainer").append("<div class='neg_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(" + negative + "," + (Math.abs(neg_value) + minimumValue) + ");'>" + neg_sents + "</a></div>")
                                 }
                             }
                         }
@@ -184,14 +197,15 @@ d3.json("data/" + dataset, function(data) {
                                     var pos_sents = thisArea[el].pos_sents[em][0]
                                     var pos_value = thisArea[el].pos_sents[em][1]
                                     var originalLink = thisArea[el].pos_sents[em][2]
-                                    $(".infoContainer").append("<div class='pos_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(156, 204, 216," + (Math.abs(pos_value) + minimumValue) + ");'>" + pos_sents + "</a></div>")
+                                    $(".infoContainer").append("<div class='pos_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(" + positive + "," + (Math.abs(pos_value) + minimumValue) + ");'>" + pos_sents + "</a></div>")
+                                    console.log(positive + ", ")
 
                                 }
                                 for (em in thisArea[el].neg_sents) {
                                     var neg_sents = thisArea[el].neg_sents[em][0]
                                     var neg_value = thisArea[el].neg_sents[em][1]
                                     var originalLink = thisArea[el].neg_sents[em][2]
-                                    $(".infoContainer").append("<div class='neg_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(248, 187, 184, " + (Math.abs(neg_value) + minimumValue) + ");'>" + neg_sents + "</a></div>")
+                                    $(".infoContainer").append("<div class='neg_sents'> <a href=https://" + originalLink + " target='_blank' style='background-color:rgba(" + negative + "," + (Math.abs(neg_value) + minimumValue) + ");'>" + neg_sents + "</a></div>")
                                 }
                             }
                         }
@@ -262,10 +276,10 @@ d3.json("data/" + dataset, function(data) {
                     var normalisedSentiment = data[i].entities[j].normalized_overall_sentiment
 
                     if (overallSentimet > 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(156, 204, 216," + (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(" + positive + "," + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
                     if (overallSentimet < 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(248, 187, 184, " + (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(" + negative + "," + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
 
                     n += data[i].entities[j].freq
@@ -306,10 +320,10 @@ d3.json("data/" + dataset, function(data) {
 
 
                     if (overallSentimet > 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(156, 204, 216," + (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(" + positive + "," + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
                     if (overallSentimet < 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(248, 187, 184, " + (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(" + negative + "," + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
 
                     n += data[i].organizations[j].freq
@@ -349,10 +363,10 @@ d3.json("data/" + dataset, function(data) {
 
 
                     if (overallSentimet > 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(156, 204, 216," + (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(" + positive + "," + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
                     if (overallSentimet < 0) {
-                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(248, 187, 184, " + (Math.abs(normalisedSentiment) + minimumValue) + "");
+                        $(".searchedElementContainer[ data-year=" + data[i].year + "]").css("background", "rgba(" + negative + "," + (Math.abs(normalisedSentiment) + minimumValue) + "");
                     }
 
                     n += data[i].places[j].freq
@@ -385,4 +399,10 @@ d3.json("data/" + dataset, function(data) {
         };
 
     }
+
+
+
+
+
+
 });
