@@ -1,7 +1,7 @@
 var dataset = "normalized_yearly-top100-entities-topics-sentiment.json"
 var num = 1
 var availableTags = [];
-var minimumValue = 0.3
+var minimumValue = 0.1
 
 var positive = "251, 251, 221"
 var negative = "199, 204, 218"

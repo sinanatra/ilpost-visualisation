@@ -564,13 +564,13 @@ button {
     outline: 1px solid transparent;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
     .searchedElementContainer {
         width: 18.65%;
     }
 }
 
-@media screen and (min-width: 766px) and (max-width: 1023px) {
+@media screen and (min-width: 766px) {
     .searchedElementContainer {
         width: 31.88%;
     }
