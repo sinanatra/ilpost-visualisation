@@ -153,6 +153,7 @@ p {
     font-size: 0px;
     min-width: 10px;
     display: block;
+    height: 3px;
 }
 
 .elements:not(.open) {
