@@ -3,6 +3,7 @@ var num = 1
 var availableTags = [];
 var minimumValue = 0.1
 
+// Lazy way to keep the color variable, yolo
 var positive = "255, 213, 61"
 var negative = "137, 145, 234"
 

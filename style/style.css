@@ -59,21 +59,23 @@ p {
 
 .topText h2 {
     width: 75%;
-    font-size: calc(12px + .5vw);
-    line-height: calc(12px + 0.7vw);
+    font-size: calc(16px + .5vw);
+    line-height: calc(16px + 0.7vw);
     margin: auto;
     font-weight: normal;
     text-align: center;
+    padding: 5vw;
 }
 
 .topText h3 {
-    width: 60%;
-    font-size: calc(12px + .5vw);
-    line-height: calc(12px + 0.7vw);
+    width: 70%;
+    font-size: calc(14px + .5vw);
+    line-height: calc(14px + 0.7vw);
     margin: auto;
     padding-top: 1rem;
     font-weight: normal;
     text-align: center;
+    padding: 5vw;
 }
 
 .container {
@@ -589,7 +591,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 766px) {
     .topText h1 {
-        font-size: 36px;
+        font-size: 54px;
     }
 }
 
@@ -620,6 +622,13 @@ body::-webkit-scrollbar-thumb {
     .elements:not(.open)>*:not(.year) {
         display: none;
     }
+    .topText h3 p:not(#split) {
+        margin: 2vw;
+        display: block;
+    }
+    .topText h3 #split {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 459px) {
@@ -627,11 +636,37 @@ body::-webkit-scrollbar-thumb {
         width: 59%;
     }
     .topText h3 {
-        width: 90%;
+        width: 100%;
+    }
+    .topText h3 #split {
+        display: block;
+        font-size: 15px;
+        padding: 9px 15px 9px 15px;
+        margin: 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.175);
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        height: auto;
+        outline: none;
+        border-radius: 3px;
+        border: none;
+        padding: 9px 15px 9px 15px;
+        margin: auto;
+        background-color: #ffffff;
+        vertical-align: bottom;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        cursor: text;
+    }
+    .topText h3 p:not(#split) {
+        margin: 2vw;
+        display: block;
     }
     .topText h2 {
         width: 98%;
-        line-height: calc(16px + 0.7vw);
+        line-height: calc(16px + 0.9vw);
+        font-size: calc(16px + 2vw);
     }
     h2 #split {
         margin: 0 1px 1px 0;
@@ -666,8 +701,11 @@ body::-webkit-scrollbar-thumb {
     .searchedElementContainer {
         width: 99.88%;
     }
-    ul li {
-        width: 100% !important;
-        width: 305px !important;
+    ul li,
+    ul {
+        width: 96vw !important;
+        /* width: 305px !important; */
+        max-width: unset;
+        overflow: scroll;
     }
 }
