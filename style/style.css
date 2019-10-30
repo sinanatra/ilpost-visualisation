@@ -1,5 +1,5 @@
-@import "_reset.css";
-@import "_fonts.css";
+@import "reset.css";
+@import "fonts.css";
 body {
     --positive: rgb(255, 213, 61);
     --negative: rgb(137, 145, 234);
