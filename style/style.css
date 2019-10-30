@@ -1,11 +1,8 @@
 @import "_reset.css";
 @import "_fonts.css";
 body {
-    --positive: rgba(251, 251, 221, 1);
-    --negative: rgba(216, 219, 227, 1);
-    /* --positive: rgb(197, 188, 169); */
-    --positive: rgba(251, 251, 221, 1);
-    --negative: rgb(199, 204, 218);
+    --positive: rgb(255, 213, 61);
+    --negative: rgb(137, 145, 234);
     font-family: "Fk Roman";
     background-color: white;
     margin: 0;
@@ -51,11 +48,11 @@ p {
     margin: auto;
     padding-top: 3rem;
     text-align: center;
-    font-size: 7vw;
+    font-size: 6vw;
     line-height: 1.2;
     font-weight: 300;
     text-align: center;
-    max-width: 810px;
+    max-width: 900px;
     margin: 0 auto 0 auto;
     padding-bottom: 40px;
 }
@@ -93,6 +90,9 @@ p {
 #content {
     height: auto;
     width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 1600px;
     display: block;
     margin: auto;
 }
@@ -390,7 +390,7 @@ ul li {
     padding: 2%;
     height: 100px;
     width: 50%;
-    width: 580px;
+    width: 620px;
     margin: auto;
 }
 
@@ -573,9 +573,6 @@ button {
 @media screen and (min-width: 766px) {
     .searchedElementContainer {
         width: 31.88%;
-    }
-    .search {
-        width: 60%;
     }
 }
 
