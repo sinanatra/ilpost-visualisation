@@ -11,6 +11,7 @@ var orderbyValue = []
 function sortNumber(a, b) {
     return a - b;
 }
+console.log('%c Made with 💛 by Giacomo Nanni', 'color:rgb(255, 213, 61); font-size:14px;  font-family: "sans-serif";width:100%');
 
 d3.json("data/" + dataset, function(data) {
     console.log(data);
