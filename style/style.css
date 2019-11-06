@@ -13,14 +13,16 @@ body {
     font-kerning: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 16px;
+    line-height: 18.5px;
     color: #444;
 }
 
 a {
     color: #444;
     text-decoration: none;
+    padding: 2px;
+    line-height: 1.4;
 }
 
 p {
@@ -64,7 +66,7 @@ p {
     margin: auto;
     font-weight: normal;
     text-align: center;
-    padding: 5vw;
+    padding: 2.5vw;
 }
 
 .topText h3 {
@@ -75,7 +77,6 @@ p {
     padding-top: 1rem;
     font-weight: normal;
     text-align: center;
-    padding: 5vw;
 }
 
 .container {
